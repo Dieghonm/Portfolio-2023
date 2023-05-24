@@ -6,6 +6,7 @@ Tecnologias Utilizadas
     React
     HTML
     CSS
+    GH-Pages
 
 Estrutura do Projeto
 
