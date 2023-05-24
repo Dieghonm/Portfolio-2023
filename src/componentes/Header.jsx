@@ -1,5 +1,5 @@
 import React from 'react';
-import perfil from '../img/perfil.jpeg'
+import perfil from '../data/perfil.jpeg'
 import '../Styles/Header.css';
 
 function Header() {
