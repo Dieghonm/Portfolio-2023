@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-2023/static/css/main.dc582985.css",
-    "main.js": "/portfolio-2023/static/js/main.96188f1b.js",
+    "main.css": "/portfolio-2023/static/css/main.ecf86f15.css",
+    "main.js": "/portfolio-2023/static/js/main.2353b8f3.js",
     "static/js/787.755d6b54.chunk.js": "/portfolio-2023/static/js/787.755d6b54.chunk.js",
+    "static/media/AventurasFantasticas.png": "/portfolio-2023/static/media/AventurasFantasticas.82cd1939d968760face9.png",
     "static/media/perfil.jpeg": "/portfolio-2023/static/media/perfil.93922251a022d78dd59c.jpeg",
+    "static/media/Pokedex.png": "/portfolio-2023/static/media/Pokedex.26dd346613aedd7c82d1.png",
     "index.html": "/portfolio-2023/index.html",
-    "main.dc582985.css.map": "/portfolio-2023/static/css/main.dc582985.css.map",
-    "main.96188f1b.js.map": "/portfolio-2023/static/js/main.96188f1b.js.map",
+    "main.ecf86f15.css.map": "/portfolio-2023/static/css/main.ecf86f15.css.map",
+    "main.2353b8f3.js.map": "/portfolio-2023/static/js/main.2353b8f3.js.map",
     "787.755d6b54.chunk.js.map": "/portfolio-2023/static/js/787.755d6b54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc582985.css",
-    "static/js/main.96188f1b.js"
+    "static/css/main.ecf86f15.css",
+    "static/js/main.2353b8f3.js"
   ]
 }
