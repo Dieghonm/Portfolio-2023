@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import {ArrowIosBack} from '@styled-icons/evaicons-solid/ArrowIosBack'
-import {ArrowIosForward} from '@styled-icons/evaicons-solid/ArrowIosForward'
-import { projectsData } from '../data/Projetos/projectsData';
 import '../Styles/Projects.css';
+import {projectsData} from '../data/Projetos/projectsData'
 
 function Projects() {
+
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
@@ -28,19 +27,18 @@ function Projects() {
           </div>
         </div>
       </div>
-    );
-  };
+    )
+  }
 
   return (
     <section className="projects">
       <div className="container">
         <h2 className="projects-title">Projetos</h2>
-        <div className="carousel">
-          <button className="prev-button" onClick={prevSlide}><ArrowIosBack /></button>
-          <div className="projects-list">
-            {projectCard(projectsData[currentIndex])}
-          </div>
-          <button className="next-button" onClick={nextSlide}><ArrowIosForward /></button>
+        <div className="projects-list">
+          {projectsData.map(project => projectCard(project))}
+        <button onClick={prevSlide}>Previous</button>
+          {projectCard(projectsData[currentIndex])}
+        <button onClick={nextSlide}>Next</button>
         </div>
       </div>
     </section>
@@ -48,4 +46,3 @@ function Projects() {
 }
 
 export default Projects;
-

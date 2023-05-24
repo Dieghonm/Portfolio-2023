@@ -1,3 +1,5 @@
+/* Projects.css */
+
 .projects {
   background-color: var(--background-color);
   color: var(--text-color);
@@ -10,7 +12,30 @@
   text-align: center;
 }
 
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prev-button,
+.next-button {
+  /* background-color: var(--accent-color); */
+  color: var(--text-color);
+  border: none;
+  padding: 10px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  background-color: var(--accent-color-hover);
+}
+
 .projects-list {
+  flex: 1;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;

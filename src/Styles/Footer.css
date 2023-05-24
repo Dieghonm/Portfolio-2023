@@ -9,6 +9,11 @@
   margin-bottom: 0;
 }
 
+svg {
+  width: 70px;
+  margin: 20px;
+}
+
 @media screen and (max-width: 600px) {
   .footer {
     font-size: 14px;

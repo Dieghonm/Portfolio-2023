@@ -7,6 +7,7 @@ Tecnologias Utilizadas
     HTML
     CSS
     GH-Pages
+    Styled-icons
 
 Estrutura do Projeto
 
