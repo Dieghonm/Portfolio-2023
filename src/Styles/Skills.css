@@ -1,0 +1,61 @@
+.MainDiv {
+  scroll-margin-top: 120px;
+}
+
+h2 {
+  margin: 30px 20px 20px 60px;
+}
+
+span {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--background-color);
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.SkillsgroupDiv {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.IconDiv {
+  color: var(--secondary-color);
+  width: 70px;
+  margin: 0px 20px;
+}
+
+.IconDiv:hover {
+  color: var(--primary-color);
+}
+
+.TooltipBox {
+  visibility: hidden;
+}
+
+.TooltipBox:before {
+  content: "";
+  top: -10px;
+  position: absolute;
+}
+
+.SkillDiv .IconDiv:hover + .TooltipBox {
+  visibility: visible;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  text-align: center;
+  z-index: 1;
+  border-radius: 6px;
+  padding: 2px;
+  transition: opacity 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+  .SkillsgroupDiv {
+    flex-direction: column;
+    align-items: center;
+  }
+}
