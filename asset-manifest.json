@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio-2023/static/css/main.10bdc62d.css",
-    "main.js": "/portfolio-2023/static/js/main.e3b46619.js",
+    "main.js": "/portfolio-2023/static/js/main.64af9456.js",
     "static/js/787.755d6b54.chunk.js": "/portfolio-2023/static/js/787.755d6b54.chunk.js",
     "static/media/AventurasFantasticas.png": "/portfolio-2023/static/media/AventurasFantasticas.82cd1939d968760face9.png",
+    "static/media/RPG.png": "/portfolio-2023/static/media/RPG.e4b4df64995f2b912bef.png",
     "static/media/perfil.jpeg": "/portfolio-2023/static/media/perfil.93922251a022d78dd59c.jpeg",
     "static/media/Pokedex.png": "/portfolio-2023/static/media/Pokedex.26dd346613aedd7c82d1.png",
     "index.html": "/portfolio-2023/index.html",
     "main.10bdc62d.css.map": "/portfolio-2023/static/css/main.10bdc62d.css.map",
-    "main.e3b46619.js.map": "/portfolio-2023/static/js/main.e3b46619.js.map",
+    "main.64af9456.js.map": "/portfolio-2023/static/js/main.64af9456.js.map",
     "787.755d6b54.chunk.js.map": "/portfolio-2023/static/js/787.755d6b54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10bdc62d.css",
-    "static/js/main.e3b46619.js"
+    "static/js/main.64af9456.js"
   ]
 }
