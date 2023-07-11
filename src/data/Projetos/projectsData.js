@@ -1,11 +1,12 @@
 import AventurasFantasticas from './AventurasFantasticas.png'
 import Pokedex from './Pokedex.png'
+import RPG from './RPG.png'
 
 export const projectsData = [
   {
     "id": 1,
     "title": "Aventuras Fantasticas",
-    "description": "Descrição do projeto 1",
+    "description": "Projeto desenvolvido em React que busca recriar a experiência dos clássicos jogos de RPG em texto dos anos 80. Inspirado por livros interativos",
     "image": AventurasFantasticas,
     "url": "https://dieghonm.github.io/aventuras-fantasticas/",
     "git": "https://github.com/Dieghonm/aventuras-fantasticas"
@@ -13,19 +14,19 @@ export const projectsData = [
   {
     "id": 2,
     "title": "Pokedex",
-    "description": "Descrição do projeto 2",
+    "description": "Aplicação web que consome uma API para exibir informações sobre diferentes Pokémon. Desenvolvida em React, a Pokédex permite explorar e aprender sobre os Pokémon, incluindo seus nomes, tipos, habilidades e estatísticas.",
     "image": Pokedex,
     "url": "https://dieghonm.github.io/pokedex/",
     "git": "https://github.com/Dieghonm/pokedex"
-
   },
-  // {
-  //   "id": 3,
-  //   "title": "Projeto 3",
-  //   "description": "Descrição do projeto 3",
-  //   "image": "caminho-para/imagem-projeto3.jpg",
-  //   "url": "https://www.example.com/projeto3"
-  // },
+  {
+    "id": 3,
+    "title": "RPG ASSIST",
+    "description": "Aplicação web desenvolvida usando React no frontend, Python no backend e MySQL como banco de dados. Essa aplicação tem como objetivo facilitar a criação e gerenciamento de fichas de personagens para o jogo de RPG Dungeons & Dragons (D&D). ",
+    "image": RPG,
+    "url": "https://dieghonm.github.io/morpheus-project/",
+    "git": "https://github.com/Dieghonm/morpheus-project"
+  },
   // {
   //   "id": 4,
   //   "title": "Projeto 4",
