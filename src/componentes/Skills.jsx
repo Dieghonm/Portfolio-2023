@@ -19,7 +19,6 @@ import {Mysql} from '@styled-icons/simple-icons/Mysql'
 import {Nodejs} from '@styled-icons/boxicons-logos/Nodejs'
 import {Mongodb} from '@styled-icons/simple-icons/Mongodb'
 import {Sequelize} from '@styled-icons/simple-icons/Sequelize'
-// https://styled-icons.dev/
 
 import '../Styles/Skills.css'
 

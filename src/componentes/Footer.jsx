@@ -10,7 +10,7 @@ function Footer() {
       <nav className="header-nav">
         <a href="https://www.linkedin.com/in/diegho-neves/"><Linkedin /></a>
         <a href="https://github.com/Dieghonm"><Github /></a>
-        <a ><Email /></a>
+        <a><Email /></a>
       </nav>
       <div className="container">
         <p className="footer-text">© {new Date().getFullYear()} Diegho Moraes. Todos os direitos reservados.</p>
