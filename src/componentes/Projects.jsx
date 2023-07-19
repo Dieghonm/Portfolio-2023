@@ -34,7 +34,12 @@ function Projects() {
   return (
     <section className="projects">
       <div className="container">
-        <h2 className="projects-title">Projetos</h2>
+      <div className="mobile-buttons">
+          <button className="mobile-prev-button" onClick={prevSlide}><ArrowIosBack /></button>
+          <h2 className="projects-title">Projetos</h2>
+          <button className="mobile-next-button" onClick={nextSlide}><ArrowIosForward /></button>
+        </div>
+        
         <div className="carousel">
           <button className="prev-button" onClick={prevSlide}><ArrowIosBack /></button>
           <div className="projects-list">

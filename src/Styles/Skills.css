@@ -1,20 +1,14 @@
-.MainDiv {
-  scroll-margin-top: 120px;
-}
-
-h2 {
-  margin: 30px 20px 20px 60px;
-}
-
-.SkillsgroupDiv {
-  justify-content: space-around;
-  background-color: var(--background-color);
+.MainDiv h2 {
   display: flex;
+  padding: 30px 20px 20px;
+  margin: 0;
   justify-content: center;
 }
 
-.IconDiv {
-  color: var(--secondary-color);
+.SkillsgroupDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 svg {
@@ -22,15 +16,8 @@ svg {
   margin: 5px 10px;
 }
 
-.IconDiv:hover {
-  color: var(--primary-color);
-}
-
 .TooltipBox {
   visibility: hidden;
-
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
   text-align: center;
   border-radius: 6px;
   padding: 2px;
@@ -43,9 +30,8 @@ svg {
   visibility: visible;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .SkillsgroupDiv {
-    flex-direction: column;
-    align-items: center;
+    box-shadow: 0 0 10px rgba(250, 248, 248, 0.2);
   }
 } 

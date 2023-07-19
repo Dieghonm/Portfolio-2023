@@ -21,7 +21,7 @@ export const projectsData = [
   },
   {
     "id": 3,
-    "title": "RPG ASSIST",
+    "title": "RPG Assist",
     "description": "Aplicação web desenvolvida usando React no frontend, Python no backend e MySQL como banco de dados. Essa aplicação tem como objetivo facilitar a criação e gerenciamento de fichas de personagens para o jogo de RPG Dungeons & Dragons (D&D). ",
     "image": RPG,
     "url": "https://dieghonm.github.io/morpheus-project/",

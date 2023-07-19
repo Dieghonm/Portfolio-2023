@@ -48,7 +48,6 @@ function Skills() {
   return (
     <div className="MainDiv" id="SkillsDiv">
       <h2>Skills</h2>
-      <div>
         <div className="SkillsgroupDiv">
           {sistems.map((sis,index) => iconDiv(sis, index, sistemsName))}
         </div>
@@ -58,7 +57,6 @@ function Skills() {
         <div className="SkillsgroupDiv">
           {backs.map((back,index) => iconDiv(back, index, backsName))}
         </div>
-      </div>
     </div>
   )
 }
